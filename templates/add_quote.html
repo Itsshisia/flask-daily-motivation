@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add a Quote</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Add Your Favorite Quote</h1>
+        <form method="POST">
+            <textarea name="quote" placeholder="Type your quote here..." required></textarea><br>
+            <button type="submit">Add Quote</button>
+        </form>
+        <a href="/">Back</a>
+    </div>
+</body>
+</html>
